@@ -1,10 +1,8 @@
 services:
   app:
-    image: node:22
-    container_name: node-app
-    working_dir: /app
+    image: portfolio-vivek:latest
+    container_name: portfolio-vivek
     volumes:
       - ./:/app
     ports:
       - "3000:3000"
-    command: npm start
