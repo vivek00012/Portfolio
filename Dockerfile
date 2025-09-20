@@ -11,6 +11,9 @@ COPY . .
 # Build the app (adjust if your build command is different)
 RUN npm run build
 
+# Remove node_modules (since build artifacts are ready)
+RUN rm -rf node_modules
+
 EXPOSE 3000
 
 CMD ["npm", "start"]
