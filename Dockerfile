@@ -1,5 +1,6 @@
 # Use official Node.js image
-FROM node:22-alpine
+# Use official Node.js image (this is cached separately by Docker)
+FROM node:22-alpine AS builder
 
 WORKDIR /app
 
