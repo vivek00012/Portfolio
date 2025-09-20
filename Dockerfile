@@ -10,3 +10,5 @@ COPY . .
 
 # Build the app (adjust if your build command is different)
 RUN npm run build
+
+EXPOSE 3000
