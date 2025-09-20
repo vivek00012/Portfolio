@@ -2,7 +2,5 @@ services:
   app:
     image: portfolio-vivek:latest
     container_name: portfolio-vivek
-    volumes:
-      - ./:/app
     ports:
       - "3000:3000"
