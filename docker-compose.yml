@@ -1,6 +1,5 @@
 services:
   app:
-    image: portfolio-vivek:latest
-    container_name: portfolio-vivek
+    image: vivek594/portfolio-vivek:latest
     ports:
       - "3000:3000"
